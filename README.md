@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+ 🌿 Virtual Herb Garden
 
-## Project info
+The **Virtual Herb Garden** is an interactive web-based platform designed to make information about herbs more accessible and engaging.  
+It combines structured data, 3D visualization, geospatial mapping, and AI-driven interaction to help users explore where different herbs grow and learn about their properties in an immersive way.
 
-**URL**: https://lovable.dev/projects/1ab1f462-fedd-426b-a37c-3ad6d52cc993
+---
 
-## How can I edit this code?
+🚀 Features
 
-There are several ways of editing your application.
+- *Herb Database:* Contains structured data for *31 herbs, stored and managed using **Supabase*.  
+- *3D Herb Models:* Each herb includes a *3D interactive model* for a realistic viewing experience.  
+- *Geo-Tagging Map:* Displays a *world map* showing the countries or regions where each herb predominantly grows.  
+- *AI Chatbot:* Integrated *chatbot powered by the Gemini API*, enabling users to ask questions and learn more about herbs through natural conversation.  
+- *User Authentication:* Optional *login feature* for personalized interaction.  
+- *Responsive Design:* Fully optimized for both desktop and mobile users.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1ab1f462-fedd-426b-a37c-3ad6d52cc993) and start prompting.
+ 🧠 Purpose
 
-Changes made via Lovable will be committed automatically to this repo.
+The Virtual Herb Garden was created to merge *data organization, **visualization, and **AI-driven interaction* into one cohesive learning platform.  
+While primarily a web development project, it also explores how *structured data* and *AI tools* can enhance information accessibility — reflecting my growing interest in *data analytics* and *data-driven user experiences*.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧰 Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- *Frontend:* Next.js / React  
+- *Database:* Supabase  
+- *3D Models:* Three.js (or compatible 3D rendering library)  
+- *Mapping:* Leaflet.js / Mapbox  
+- *AI Integration:* Gemini API (for chatbot functionality)   
+- *AI Assistance:* Project scaffolded with *Lovable AI* and further developed and enhanced through self work.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 💬 Chatbot Functionality
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The integrated *Gemini-powered chatbot* allows users to:  
+- Ask questions about specific herbs  
+- Learn about their uses, regions, or medicinal properties  
+- Interact dynamically with the dataset in natural language  
 
-# Step 3: Install the necessary dependencies.
-npm i
+This feature demonstrates how AI can make static data more conversational and educational.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+
+## 🔗 Live Demo
+
+👉 [Visit the Virtual Herb Garden Website]( http://localhost:8080/)
+
+---
+
+## ⚙ Installation
+
+If you’d like to run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/virtual-herb-garden.git
+
+# Navigate to the project directory
+cd virtual-herb-garden
+
+# Install dependencies
+npm install
+
+# Add your environment variables (e.g., Supabase keys, Gemini API key)
+
+# Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1ab1f462-fedd-426b-a37c-3ad6d52cc993) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
